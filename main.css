@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
 /* font-family: 'Kaisei HarunoUmi', serif; */
 
-body {
-    background: burlywood;
-}
 
 .container {
     font-family: 'Kaisei HarunoUmi', serif;
@@ -41,7 +38,7 @@ body {
 
 .cv-p {
     margin-left: 40px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .cv-h1 {
@@ -110,7 +107,6 @@ body {
 .text-h3 {
     font-size: 17px;
     font-weight: 700;
-
 }
 
 .text-h3-under {
@@ -129,7 +125,85 @@ body {
     left: -45px;
 }
 
+.content-wrapper {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 90px;
+}
 
+.content-title { 
+    display: flex;
+    align-items: center;
+}
+
+.content-img {
+    width: 30px;
+}
+
+.h4-content {
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.white-line {
+    border-top: 1px solid white
+}
+
+.personal-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-content-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.p-personal {
+    margin-right: 55px;
+    color: white;
+}
+
+.h5-skill {
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.star {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.education {
+    margin-top: 30px;
+}
+
+.education-info {
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.education-info-2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.hobbies-wrapper {
+
+}
+
+.p-hobbies {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: white;
+}
 .col-4 {
     background-color: #0B5497;
 }

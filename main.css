@@ -32,7 +32,7 @@
     left: 50px;
 }
 
-.img {
+.cv-img {
     height: 250px;
 }
 
@@ -97,6 +97,7 @@
     width: 1px;
     background-color: #0B5497;
     margin-left: 57px;
+    height: 900px;
 }
 
 .text-wrapper {
@@ -195,15 +196,22 @@
     font-size: 15px;
 }
 
-.hobbies-wrapper {
-
-}
-
 .p-hobbies {
     margin-top: 2px;
     margin-bottom: 2px;
     color: white;
 }
-.col-4 {
+.right-side {
     background-color: #0B5497;
+}
+
+.not-working-without-class {
+    background: linear-gradient(to right, white 0%, white 66.2%, black 0%, #0B5497 30%);
+    margin-right: -15px;
+}
+
+.footer-text {
+    background: linear-gradient(to right, black 0%, black 66.2%, white 0%, white 30%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }

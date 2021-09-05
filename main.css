@@ -148,6 +148,12 @@
     color: white;
 }
 
+.h4-content:hover {
+    color: black;
+    font-size: 28px;
+    transition: 1s;
+}
+
 .white-line {
     border-top: 1px solid white
 }
@@ -211,7 +217,10 @@
 }
 
 .footer-text {
+
     background: linear-gradient(to right, black 0%, black 66.2%, white 0%, white 30%);
     -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+    font-size: 12px;
+    
 }
